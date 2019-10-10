@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html , css} from 'lit-element';
 
 export class SocialIcon extends LitElement {
     render() {
