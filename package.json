@@ -2,7 +2,7 @@
   "name": "social-icon",
   "version": "1.0.0",
   "description": "LitElement based web component for displaying social media info ",
-  "main": "social-icon.js",
+  "main": "nmj-social-icon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
