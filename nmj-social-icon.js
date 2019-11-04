@@ -15,8 +15,7 @@ export class NmjSocialIcon extends LitElement {
     }
 
     static get styles() {
-        return {
-            css`
+        return css`
                 :host[hidden] {display:none;}
                 :host {display: inline-block}
                 path {
@@ -33,21 +32,20 @@ export class NmjSocialIcon extends LitElement {
                     display: flex;
                 }
             `;
-        }
     }
 
 
     render() {
-        return html `
+        return html`
             <div>
                 ${this._getIcon(this.icon)}
-            </div>
-        `;
+            </div>`;
     }
 
     _getIcon(icon) {
-        return icons[icon];
+        return icons[icon]
     }
+    
 }
 
 customElements.define('nmj-social-icon', NmjSocialIcon);
