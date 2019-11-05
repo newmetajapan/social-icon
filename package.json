@@ -1,6 +1,6 @@
 {
   "name": "social-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LitElement based web component for displaying social media info ",
   "main": "nmj-social-icon.js",
   "scripts": {
